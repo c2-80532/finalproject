@@ -14,7 +14,7 @@ pipeline {
             steps {
                 sh 'echo passed'
                 // Uncomment the following line to perform Git checkout
-                // git branch: 'main', url: 'https://github.com/C2-80486/finalproject.git'
+                git branch: 'main', url: 'https://github.com/C2-80486/finalproject.git'
             }
         }
         stage('Build and Test') {
